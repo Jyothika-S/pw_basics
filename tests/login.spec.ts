@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/login';
 
+//Page Obj Model
 test('login test', async ({ page }) => {
     //create an instance of LoginPage
     const login = new LoginPage(page);
