@@ -7,7 +7,7 @@ test('login test', async ({ page }) => {
     const login = new LoginPage(page);
 
     await login.gotoLoginPage()
-    await login.login('tomsmit', 'SuperStrongPassword!')
+    await login.login('tomsmith', 'SuperSecretPassword!')
 
     // await page.goto('https://the-internet.herokuapp.com/login');
     // await page.getByLabel('Username').click();
