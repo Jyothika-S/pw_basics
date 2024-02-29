@@ -1,0 +1,23 @@
+{
+  "name": "learning_pw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed",
+    "test:headless": "playwright test",
+    "ctest": "playwright test --project=chromium",
+    "ftest": "playwright test --project=firefox",
+    "wtest": "playwright test --project=webkit",
+    "debug": "playwright test --debug"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19",
+    "monocart-reporter": "^2.3.4"
+  }
+}
