@@ -1,0 +1,26 @@
+[
+    {
+        "FirstName":"tom",
+        "LastName":"smith",
+        "Email":"tom@gmail.com",
+        "Age":"22",
+        "Salary":"22222",
+        "Dept": "abc"
+    },
+    {
+        "FirstName":"james",
+        "LastName":"clark",
+        "Email":"jamies@gmail.com",
+        "Age":"24",
+        "Salary":"22332",
+        "Dept": "abc"
+    },
+    {
+        "FirstName":"john",
+        "LastName":"smith",
+        "Email":"john@gmail.com",
+        "Age":"25",
+        "Salary":"22332",
+        "Dept": "cvb"
+    }
+]
