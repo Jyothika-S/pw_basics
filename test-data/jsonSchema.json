@@ -1,0 +1,42 @@
+{
+    "$id": "http://json-schema.org/draft-04/schema#",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "age": {
+        "type": "integer"
+      },
+      "adopted": {
+        "type": "boolean"
+      },
+      "owners": {
+        "type": "array",
+        "items": [
+          {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "email": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "email"
+            ]
+          }
+        ]
+      }
+    },
+    "required": [
+      "name",
+      "age",
+      "adopted",
+      "owners"
+    ]
+  }
